@@ -25,7 +25,6 @@ a {
     /*display: inline-block;*/
     background-color: #607c2a;
     padding: 5px;
-
 }
 
 a:visited {
@@ -43,7 +42,6 @@ p {
 
 header {
     padding: 20px;
-
     background-color: #2a607c;
     color: #e8f2f7;
     width: 100%;
@@ -52,23 +50,18 @@ header {
     align-items: center;
 }
 
-header h1 {
-    font-size: 48px;
-    display: inline-block;
-    color: #e8f2f7;
-}
-
 nav {
     align-items: center;
 }
 
 nav ul {
     display: flex;
+    padding-right: 20px;
 }
 
 nav ul li {
-    margin-right: 0px;
-    padding: 5px;
+    margin-right: 40px;
+    padding: 10px;
     font-size: 20px;
     list-style-type: none;
     background-color: #607c2a;
@@ -95,14 +88,15 @@ div ul li {
 /*TOP IMAGE */
  
 .picture-text {
-    background-image: url(./images/coast.jpg);
+    background-image: url("../../assets/images/coast.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 20px;
+    min-height: 200px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     padding: 10px;
+    color: #e8f2f7;
 }
 
 
@@ -114,27 +108,30 @@ div ul li {
 main {
     margin-right: auto;
     margin-left: auto;
-    max-width: 85%;
-}
+    max-width: 90%;
+    padding-left: 10px;
+    /*display: flex;*/
 
+}
 
 .portfolio {
     display: flex;
-    padding: 15px 0;
+    padding: 15px 15px;
     margin: 20px 0;
     align-items: center;
+    display: flex;
 } 
 
 .portfolio > h2 {
-    flex: 0 0 20%;
+    flex: 0 0 10%;
     padding-right: 10px;
-    border-right: 3px solid black;
+    border-right: 5px solid black;
     font-size: 25px;
     text-align: right;
 }
 
 .portfolio > div {
-    /*flex: 0 0 75%; */
+    flex: 0 0 65%; 
 } 
 
 /* ABOUT CONTAINER */
@@ -142,54 +139,69 @@ main {
 .about-container {
     display: flex; 
     justify-content: center;
+    padding-left: 20px;
+    position: relative;
 }
-
 
 /* WORK CONTAINER */
 
 .work-container {
    display: flex;  
-   justify-content: space-between;
+   justify-content: space-evenly;
    flex-wrap: wrap;
+   position: static;    
+   padding-left: 20px;
+   flex-grow: 5;
+   align-content: stretch;
+
 }
 
 /*Project Pictures */
 
 .image {
-    min-height: 300px;
+    min-height: 200px;
     max-height: 400px;
     border: 1px solid #607c2a;
-    /*background-image: 150%;*/
-    /*display: flex; */
+    max-width: 400px;
+    min-width: 200px;
+    background-image: 100%;
+    display:inline-flexbox;
     background-size: cover;
 } 
 
 .imageOne {
     max-height: 300px;
-    background-image: url(./images/beach.jpg);
+    background-image: url("../../assets/images/beach.jpg");
 }
 
 .imageTwo {
     max-height: 300px;
-    background-image: url(./images/purple-sunset.jpg);
+    background-image: url("../../assets/images/purple-sunset.jpg");
 }
 
 .imageThree {
     max-height: 300px;
-    background-image: url(./images/river-rocks.jpg);
+    background-image: url("../../assets/images/river-rocks.jpg");
 }
 
 .imageFour {
     max-height: 300px;
-    background-image: url(./images/forest.jpg);
+    background-image: url("../../assets/images/forest.jpg");
 }
 
 .imageFive {
     max-height: 300px;
-    background-image: url(./images/wild-grass.jpg);
+    background-image: url("../../assets/images/wild-grass.jpg");
 }
 
 /*End Project Pictures */
 
 /* Start of Contact Information */
 
+.contactme > h2 {
+    flex: 0 0 10%;
+    padding-right: 10px;
+    border-right: 5px solid black;
+    font-size: 25px;
+    text-align: right;
+}
