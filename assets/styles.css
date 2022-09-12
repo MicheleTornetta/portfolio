@@ -1,0 +1,195 @@
+/*colors
+#e8f2f7 - light blue
+#2a607c - water blue
+#607c2a - green
+#7c2a60 - purple
+#333333 - gray */
+
+
+/* GLOBAL HTML ELEMENTS */
+
+* {
+    box-sizing: content-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #e8f2f7;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+    /*display: inline-block;*/
+    background-color: #607c2a;
+    padding: 5px;
+
+}
+
+a:visited {
+	color: #7c2a60;
+}
+
+p {
+    font-size: 16px;
+    color: #333333;
+}
+
+/*END GLOBAL ELEMENTS */
+
+/*HERE IS THE HEADER SECTION*/
+
+header {
+    padding: 20px;
+
+    background-color: #2a607c;
+    color: #e8f2f7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 48px;
+    display: inline-block;
+    color: #e8f2f7;
+}
+
+nav {
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 0px;
+    padding: 5px;
+    font-size: 20px;
+    list-style-type: none;
+    background-color: #607c2a;
+    color: #e8f2f7;
+}
+
+div ul {
+    display: flex;
+}
+
+div ul li {
+    margin-right: 0px;
+    padding: 5px;
+    font-size: 20px;
+    list-style-type: none;
+    background-color: #607c2a;
+    color: #e8f2f7;
+}
+
+
+/*END OF HEADER SECTION*/
+
+
+/*TOP IMAGE */
+ 
+.picture-text {
+    background-image: url(./images/coast.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+
+/*END OF TOP IMAGE*/
+
+
+/* START OF MAIN */
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 85%;
+}
+
+
+.portfolio {
+    display: flex;
+    padding: 15px 0;
+    margin: 20px 0;
+    align-items: center;
+} 
+
+.portfolio > h2 {
+    flex: 0 0 20%;
+    padding-right: 10px;
+    border-right: 3px solid black;
+    font-size: 25px;
+    text-align: right;
+}
+
+.portfolio > div {
+    /*flex: 0 0 75%; */
+} 
+
+/* ABOUT CONTAINER */
+
+.about-container {
+    display: flex; 
+    justify-content: center;
+}
+
+
+/* WORK CONTAINER */
+
+.work-container {
+   display: flex;  
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+/*Project Pictures */
+
+.image {
+    min-height: 300px;
+    max-height: 400px;
+    border: 1px solid #607c2a;
+    /*background-image: 150%;*/
+    /*display: flex; */
+    background-size: cover;
+} 
+
+.imageOne {
+    max-height: 300px;
+    background-image: url(./images/beach.jpg);
+}
+
+.imageTwo {
+    max-height: 300px;
+    background-image: url(./images/purple-sunset.jpg);
+}
+
+.imageThree {
+    max-height: 300px;
+    background-image: url(./images/river-rocks.jpg);
+}
+
+.imageFour {
+    max-height: 300px;
+    background-image: url(./images/forest.jpg);
+}
+
+.imageFive {
+    max-height: 300px;
+    background-image: url(./images/wild-grass.jpg);
+}
+
+/*End Project Pictures */
+
+/* Start of Contact Information */
+
