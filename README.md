@@ -14,11 +14,19 @@ Then he/she/they/them will have the abilty to view a sampling of projects I have
 When an employer visits my sight
 Then an employer will be able to contact me 
 
+## Projects
+
+Discription 1:  link
+
 ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
 ![Portfolio Demonstration](./Assets/images/02-advanced-css-homework-demo.gif)
+
+## Technology Preference
+
+I would like to specialize in...
 
 ## Review
 
