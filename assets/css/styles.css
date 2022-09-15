@@ -1,9 +1,13 @@
-/*colors
-#e8f2f7 - light blue
-#2a607c - water blue
-#607c2a - green
-#7c2a60 - purple
-#333333 - gray */
+/*colors*/
+
+:root {
+--BG: #FBEEC1;
+--MC: #659DBD;
+--accent1: #DAAD86;
+--accent2: #8D8741;
+--text: #333333;
+} 
+
 
 
 /* GLOBAL HTML ELEMENTS */
@@ -16,37 +20,34 @@
 }
 
 body {
-    background-color: #e8f2f7;
+    background-color: var(--BG);
 }
 
 a {
-    color: #333333;
+    color: var(--text);
     text-decoration: none;
-    background-color: #607c2a;
+    background-color: var(--accent1);
 
 }
 
-
-
 a:visited {
-	color: #7c2a60;
+	color: var(--accent2);
 }
 
 p {
     font-size: 16px;
-    color: #333333;
-    padding: 3px 0;
-
+    color: var(--text);
+    padding: 5px 0;
 }
 
 /*END GLOBAL ELEMENTS */
 
-/*HERE IS THE HEADER SECTION*/
+/*THIS IS THE HEADER SECTION W/NAV BAR*/
 
 header {
     padding: 20px;
-    background-color: #2a607c;
-    color: #e8f2f7;
+    background-color: var(--MC);
+    color: var(--BG);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -66,17 +67,15 @@ nav ul {
     nav ul {
         flex-direction: column;
     }
-  }
-
-
+}
 
 nav ul li {
     margin: 5px 10px;
     padding: 10px;
     font-size: 20px;
     list-style-type: none;
-    background-color: #607c2a;
-    color: #e8f2f7;
+    background-color: var(--accent1);
+    color: var(--BG);
     
 }
 
@@ -98,19 +97,19 @@ nav ul li a {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 10px;
-    color: #e8f2f7;
+    color: var(--BG);
 }
-
 
 /*END OF TOP IMAGE*/
 
 
-/* START OF MAIN */
+/* START OF MAIN - WHERE I PRESENT MYSELF & WORK */
 
 main {
     display: flex;
     flex-direction: column;
 }
+
 
 .container {
     display: flex;
@@ -118,9 +117,11 @@ main {
     margin: 20px;
 }
 
+
+
 aside {
     flex: 1;
-    border-right: solid #333333 5px;
+    border-right: solid var(--text) 5px;
     margin-right: 20px;
 }
 
@@ -129,11 +130,17 @@ aside h2 {
     padding-right: 10px;
 }
 
+/* END OF LEFT SIDE PAGE HEADERS */
+
+/*PROJECT PICTURES AND LINKS - Right Content section*/
+
+.text {
+    margin-left: 5px;
+}
+
 .container div {
     flex: 6;
 }
-
-/*Right Content section*/
 
 .box-container {
     display: flex;
@@ -141,7 +148,7 @@ aside h2 {
 }
 
 .imagelink {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     flex: 1;
     flex-wrap: wrap;
@@ -154,6 +161,24 @@ aside h2 {
     grid-gap: 10px;
 }
 
+.description {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.description h3 {
+    margin: 0 5px 5px 0;
+} 
+
+.description p {
+    margin: 0 5px 5px 0;
+} 
+    
 .image-big {
     flex: 1;
     margin: 5px 5px;
@@ -191,10 +216,10 @@ aside h2 {
 }
 
 
-/* START OF FOOTER SECTION */
+/* START OF FOOTER SECTION  - CONTACT INFORMATION */
 
 .findme {
-    background-color: #607c2a;
+    background-color: var(--accent1);
     display: flex;
     text-align: center;
 }
@@ -210,8 +235,8 @@ div ul {
 div ul li {
     font-size: 20px;
     list-style-type: none;
-    background-color: #607c2a;
-    color: #e8f2f7;
+    background-color: var(--accent1);
+    color: var(--BG);
 
 }
 
