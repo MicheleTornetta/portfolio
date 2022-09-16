@@ -2,7 +2,7 @@
 
 ## User Story
 
-As a web developer, I create web applications that are user friendly, follow best practices, and are accessible.  Each application should be writting in such a way that future changes are easy to do.  I also have 
+As a web developer, I create web applications that are user friendly, follow best practices, and are accessible.  Each application should be writting in such a way that future changes are easy to do.  
 
 ## Accpetance Criteria
 
@@ -16,16 +16,21 @@ Then an employer will be able to contact me.
 
 ## Projects
 
-Discription 1:  link
+Horiseon 1:  [Horiseon Website](https://micheletornetta.github.io/code_refractor/)
+Pretend Project 2:  [Second Website](https://micheletornetta.github.io/code_refractor/)
+Pretend Project 3:  [Third Website](https://micheletornetta.github.io/code_refractor/)
+Pretend Project 4:  [Fourth Website](https://micheletornetta.github.io/code_refractor/)
+Pretend Project 5:  [Fifth Website](https://micheletornetta.github.io/code_refractor/)
+
 
 ## Mock-Up
 
-You will be able view several completed projects.  In each project you can see that each site is designed to be used on a variety of media types.  Each project also is accessible with discriptive alt text for images.
+You will be able view several completed projects.  In each project you can see that each site is designed to be used on a variety of media types.  Each project is accessible with discriptive alt text.
 
-The following animation shows the web application's appearance and functionality:
+The following the web application's appearance and functionality:
 
 
-![Portfolio Demonstration](./Assets/images/02-advanced-css-homework-demo.gif)
+![Portfolio Demonstration](./assets/images/aboutme.jpg)
 
 ## Technology Preference
 
@@ -33,5 +38,5 @@ I would like to specialize in...
 
 ## Review
 
-* Portfolio URL:
-* GitHub repository URL:
+* Portfolio URL: https://micheletornetta.github.io/portfolio/
+* GitHub repository URL: https://github.com/MicheleTornetta/portfolio
