@@ -54,12 +54,12 @@ header {
     align-items: center;
 }
 
-/*.shrink-wrap {
-    @media screen and (max-width: 340px) {
-        {
-            flex-direction: row;
-        }
-}*/
+
+@media screen and (max-width: 840px) {
+    .shrink-wrap {
+        flex-direction: column;
+    }
+}
 
 nav {
     align-items: center;
@@ -205,12 +205,12 @@ aside h2 {
 }
 
 .imageOne {
-    background-image: url('../images/beach.jpg');
+    background-image: url('../images/horiseon.jpg');
     background-size: cover;
 }
 
 .imageTwo {
-    background-image: url('../images/purple-sunset.jpg');
+    background-image: url('../images/coast.jpg');
     background-size: cover;
 }
 
@@ -242,7 +242,7 @@ div ul {
     display: inline-flex;
     flex: 1;
     justify-content: space-around;
-    height: 45px;
+    padding: 10px;
     align-items: center;
 }
 
