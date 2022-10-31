@@ -242,6 +242,16 @@ aside h2 {
 }
 
 .imageFive {
+    background-image: url('../images/weatherdashboard.png');
+    background-size: cover;
+}
+
+.imageSix {
+    background-image: url('../images/brewsnchewspic.png');
+    background-size: cover;
+}
+
+.imageSeven {
     background-image: url('../images/wild-grass.jpg');
     background-size: cover;
 }
