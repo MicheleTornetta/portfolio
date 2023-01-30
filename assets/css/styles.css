@@ -200,14 +200,20 @@ aside h2 {
 
 .description h3 {
     margin: 0 5px 5px 0;
-    color: var(--BG);
-    text-shadow: 2px 2px #333333;
+    color: var(--accent2);
+    box-shadow: 2px 2px #333333; 
+    background-color: var(--BG);
+    margin: 0 5px 0 5px;
+    padding: 5px;
 } 
 
 .description p {
     margin: 0 5px 5px 0;
-    color: var(--BG);
-    text-shadow: 2px 2px #333333;
+    color: var(--accent2);
+    box-shadow: 2px 2px #333333; 
+    background-color: var(--BG);
+    margin: 2px 5px 0 5px;
+    padding: 5px;
 } 
     
 .image-big {
